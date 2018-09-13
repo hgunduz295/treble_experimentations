@@ -156,7 +156,7 @@ function get_rom_type() {
                 extra_make_options="WITHOUT_CHECK_API=true"
                 ;;
             dot)
-                mainrepo="https://github.com/AOKP/platform_manifest.git"
+                mainrepo="https://github.com/DotOS/manifest.git"
                 mainbranch="dot-o"
                 localManifestBranch="android-8.1"
                 treble_generate="dot"
