@@ -44,7 +44,7 @@ ROM types:
   crdroid
   mokee
   aicp
-  aokp
+  dot
   aex
   slim
   havoc
@@ -155,11 +155,11 @@ function get_rom_type() {
                 treble_generate="aicp"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 ;;
-            aokp)
+            dot)
                 mainrepo="https://github.com/AOKP/platform_manifest.git"
-                mainbranch="oreo"
+                mainbranch="dot-o"
                 localManifestBranch="android-8.1"
-                treble_generate="aokp"
+                treble_generate="dot"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 ;;
             aex)
