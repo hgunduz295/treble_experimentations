@@ -47,7 +47,7 @@ ROM types:
   dot
   aex
   slim
-  havoc
+  potato
 
 Variants are dash-joined combinations of (in order):
 * processor type
@@ -176,11 +176,11 @@ function get_rom_type() {
                 treble_generate="slim"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 ;;
-	    havoc)
-                mainrepo="https://github.com/Havoc-OS/android_manifest.git"
-                mainbranch="pie"
+	    potato)
+                mainrepo="https://github.com/PotatoProject/manifest.git"
+                mainbranch="baked-release"
                 localManifestBranch="android-9.0"
-                treble_generate="havoc"
+                treble_generate="potato"
                 extra_make_options="WITHOUT_CHECK_API=true"
                 ;;
         esac
